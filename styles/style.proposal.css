@@ -1,0 +1,136 @@
+.proposal {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.proposal-section {
+  width: 413px;
+  margin: auto 121px auto 0;
+}
+
+.proposal-header {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  font-family: Oranienbaum, sans-serif;
+}
+
+.proposal-text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: Inter Display, sans-serif;
+}
+
+.clinic-image {
+  width: 738px;
+  height: 451.63px;
+}
+
+@media (min-width: 1280px) {
+  .proposal {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .proposal-section {
+    width: auto;
+    margin-right: 180px;
+  }
+
+  .proposal-text {
+    max-width: auto;
+  }
+  .clinic-image {
+    max-width: 738px;
+    height: 451.63px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .proposal {
+    min-width: 1024px;
+    max-width: 1279px;
+    margin: 0 auto;
+    flex-direction: row;
+  }
+  .proposal-section {
+    width: auto;
+    margin-right: 80px;
+  }
+  .clinic-image {
+    width: auto;
+    height: 367px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .proposal {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .proposal-section {
+    width: 100%;
+    margin: 0 20px 20px 20px;
+    text-align: center;
+  }
+  .clinic-image {
+    width: 100%;
+    max-width: 738px;
+    height: auto;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .proposal {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .proposal-section {
+    width: 100%;
+    margin: 0 15px 15px 15px;
+    text-align: center;
+  }
+  .proposal-header {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .proposal-text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .clinic-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
+}
+
+@media (max-width: 479px) {
+  .proposal {
+    flex-direction: column;
+    align-items: center;
+  }
+  .proposal-section {
+    width: 100%;
+    margin: 0 10px 10px 10px;
+    text-align: center;
+  }
+  .proposal-header {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .proposal-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .clinic-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+}

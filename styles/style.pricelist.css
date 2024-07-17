@@ -1,0 +1,173 @@
+.pricelist {
+  margin-top: 116px;
+}
+
+.pricelist-title {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: left;
+  margin-bottom: 48px;
+  font-family: Oranienbaum, sans-serif;
+}
+
+.table-section {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #cc8e1e45;
+  padding: 48px 108px 48px 108px;
+  max-height: 858px;
+  overflow-y: auto;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.table-section::-webkit-scrollbar {
+  width: 8px;
+}
+
+.table-section::-webkit-scrollbar-track {
+  background: #f6f5f2;
+}
+
+.table-section::-webkit-scrollbar-thumb {
+  background-color: #cc8e1e;
+  border-radius: 36px;
+  border: 2px solid white;
+}
+
+.table-section table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 26px;
+}
+
+.table-header {
+  background-color: #faf4e8;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  font-family: Oranienbaum, sans-serif;
+}
+
+.table-raw {
+  background-color: #f1efe9;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: Oranienbaum, sans-serif;
+}
+
+.table-section td.start,
+.table-section td.end {
+  text-align: center;
+}
+
+.table-section th {
+  padding: 16px 0;
+}
+
+.table-section td {
+  padding: 8px 0;
+}
+
+.start {
+  width: 20%;
+}
+
+.center {
+  width: 55%;
+}
+
+.end {
+  width: 25%;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .pricelist-title {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 40px;
+  }
+
+  .table-section {
+    padding: 40px 80px;
+  }
+
+  .table-header {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .table-raw {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .pricelist-title {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 32px;
+  }
+
+  .table-section {
+    padding: 32px 64px;
+  }
+
+  .table-header {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .table-raw {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .pricelist-title {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 24px;
+  }
+
+  .table-section {
+    padding: 24px 48px;
+  }
+
+  .table-header {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .table-raw {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 479px) {
+  .pricelist-title {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 16px;
+  }
+
+  .table-section {
+    padding: 16px 24px;
+  }
+
+  .table-header {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .table-raw {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

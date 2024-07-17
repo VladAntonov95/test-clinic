@@ -1,0 +1,14 @@
+{
+  "name": "test-site",
+  "version": "1.0.0",
+  "description": "this is test landung page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vlad Antonov",
+  "license": "ISC",
+  "dependencies": {
+    "swiper": "^11.1.5"
+  }
+}

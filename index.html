@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clinic</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="autor" content="Vlad Antonov" />
+    <meta name="description" content="The clinic site" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/styles.header.css" />
+    <link rel="stylesheet" href="./styles/style.proposal.css" />
+    <link rel="stylesheet" href="./styles/styles.packages.css" />
+    <link rel="stylesheet" href="./styles/style.sales-section.css" />
+    <link rel="stylesheet" href="./styles/style.pereglyad.css" />
+    <link rel="stylesheet" href="./styles/styles.contacts.css" />
+    <link rel="stylesheet" href="./styles/styles.footer.css" />
+    <link rel="stylesheet" href="./styles/style.pricelist.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oranienbaum:wght@400;700&display=swap" />
+
+    <link rel="icon" href="title-icon.ico" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img
+          src="./public/header-logo.svg"
+          alt="icon logo"
+          width="66.83px"
+          height="63.31px" />
+      </a>
+      <nav>
+        <ul class="nav">
+          <li><a href="#pricelist">Nasi lekarze</a></li>
+          <li>
+            <a href="#contacts">Kontakt</a>
+          </li>
+          <li>
+            <!-- add something -->
+            <a href="#programs">
+              Programs
+              <img
+                src="./public/arrow_down.svg"
+                alt=""
+                width="24"
+                height="19"
+                class="arrow-image"
+            /></a>
+          </li>
+          <li>
+            <!-- add something -->
+            <a href="o-nas">
+              O Nas
+              <img
+                src="./public/arrow_down.svg"
+                alt=""
+                width="24"
+                height="19"
+                class="arrow-image"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+      <span
+        ><img
+          src="./public/login_icon.svg"
+          alt="login-icon"
+          width="40"
+          height="40"
+      /></span>
+      <span
+        ><a href="#contacts" class="kontakt-link"
+          >Skontaktuj się z nami</a
+        ></span
+      >
+      <select>
+        <option value="pl">PL</option>
+        <option value="ua">UA</option>
+      </select>
+      <!-- fix mistakes with color -->
+      <label class="toggle-wrapper">
+        <input type="checkbox" class="toggle-switch" />
+        <span class="toggle">
+          <img
+            class="toggle-button-day"
+            src="./public/toggle-button-day.ico"
+            alt=""
+            width="24"
+            height="24"
+            class="toggle-button-day" />
+          <img
+            src="./public/toggle-button-night.ico"
+            alt=""
+            width="24"
+            height="24"
+            class="toggle-button-night" />
+        </span>
+      </label>
+    </header>
+
+    <main>
+      <article class="proposal">
+        <section class="proposal-section">
+          <h2 class="proposal-header">АКЦІЇ ТА АКЦІЙНІ ПАКЕТИ</h2>
+          <p class="proposal-text">
+            Ми завжди прагнемо підвищити рівень сервісу надаваних медичних
+            послуг, і вдячні вам за залишений позитивний відгук. Ми беремо до
+            уваги всі коментарі та побажання, які відносяться до нашої роботи.
+            Дякуємо за ваш вибір.
+          </p>
+        </section>
+        <aside>
+          <figure>
+            <img
+              src="./public/clinic-photo.svg"
+              alt="clinic image"
+              width="738"
+              height="451.63px"
+              class="clinic-image" />
+          </figure>
+        </aside>
+      </article>
+      <article class="packages-section">
+        <h2 class="packages-header">ПАКЕТИ</h2>
+        <section class="articles-section">
+          <section class="package">
+            <h3 class="package-header">УЗД всього організму для жінок</h3>
+            <p class="package-text">
+              УЗД всього організму для жінок <br />
+              Щитовидна залоза <br />
+              Молочні залози <br />
+              Органи черевної порожнини (печінка, жовчний міхур, підшлункова
+              залоза, селезінка) <br />
+              Нирки та надниркові залози <br />
+              Органи малого тазу <br />
+              Ціна - <span class="line-through">2600</span> грн<br />
+              Ціна по акції - 1280 грн
+            </p>
+            <a href="#pricelist" class="package-button"
+              >Переглянути детальніше</a
+            >
+          </section>
+          <section class="package">
+            <h3 class="package-header">УЗД всього організму для жінок</h3>
+            <p class="package-text">
+              УЗД всього організму для жінок <br />
+              Щитовидна залоза <br />
+              Молочні залози <br />
+              Органи черевної порожнини (печінка, жовчний міхур, підшлункова
+              залоза, селезінка) <br />
+              Нирки та надниркові залози <br />
+              Органи малого тазу <br />
+              Ціна - <span class="line-through">2600</span> грн<br />
+              Ціна по акції - 1280 грн
+            </p>
+            <a href="#pricelist" class="package-button"
+              >Переглянути детальніше</a
+            >
+          </section>
+          <section class="package">
+            <h3 class="package-header">УЗД всього організму для жінок</h3>
+            <p class="package-text">
+              УЗД всього організму для жінок <br />
+              Щитовидна залоза <br />
+              Молочні залози <br />
+              Органи черевної порожнини (печінка, жовчний міхур, підшлункова
+              залоза, селезінка) <br />
+              Нирки та надниркові залози <br />
+              Органи малого тазу <br />
+              Ціна - <span class="line-through">2600</span> грн<br />
+              Ціна по акції - 1280 грн
+            </p>
+            <a href="#pricelist" class="package-button"
+              >Переглянути детальніше</a
+            >
+          </section>
+        </section>
+      </article>
+      <article class="sales-article">
+        <h2 class="sales-article-header">АКЦІЙНІ ПРОПОЗИЦІЇ</h2>
+        <section class="sales-section">
+          <section class="slider">
+            <!-- make slider work -->
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="./public/doctor.svg"
+                    alt="doctor-image"
+                    width="629"
+                    height="294" />
+                  <h3 class="slide-title">
+                    Акція "-40% на пробне заняття з кінезітерапії"
+                  </h3>
+                  <p class="slider-text">
+                    Маєте чудову нагоду потурбуватись про власне здоров’я за
+                    вигідною пропозицією вартістю 680 408 грн.
+                  </p>
+                  <span
+                    ><a href="#pricelist" class="slider-link"
+                      >Переглянути детальніше</a
+                    ></span
+                  >
+                </div>
+                <div class="swiper-slide">
+                  <img src="" alt="doctor-image" width="629" height="294" />
+                  <h3 class="slide-title">
+                    Акція "-40% на пробне заняття з кінезітерапії"
+                  </h3>
+                  <p class="slider-text">
+                    Маєте чудову нагоду потурбуватись про власне здоров’я за
+                    вигідною пропозицією вартістю 680 408 грн.
+                  </p>
+                  <span
+                    ><a href="" class="slider-link"
+                      >Переглянути детальніше</a
+                    ></span
+                  >
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./public/doctor.svg"
+                    alt="doctor-image"
+                    width="629"
+                    height="294" />
+                  <h3 class="slide-title">
+                    Акція "-40% на пробне заняття з кінезітерапії"
+                  </h3>
+                  <p class="slider-text">
+                    Маєте чудову нагоду потурбуватись про власне здоров’я за
+                    вигідною пропозицією вартістю 680 408 грн.
+                  </p>
+                  <span
+                    ><a href="" class="slider-link"
+                      >Переглянути детальніше</a
+                    ></span
+                  >
+                </div>
+              </div>
+              <div class="swiper-button-prev">
+                <div class="button-arrow-left"></div>
+              </div>
+              <div class="swiper-button-next">
+                <div class="button-arrow-right"></div>
+              </div>
+            </div>
+          </section>
+          <aside>
+            <!-- make the form action -->
+            <form class="form">
+              <fieldset class="fieldset">
+                <legend class="field-header">Czekamy na Ciebie!</legend>
+                <div class="input-container">
+                  <label for="name" class="inputs-labels"
+                    >Imię i nazwisko
+                  </label>
+                  <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    placeholder="Imię i nazwisko"
+                    class="text-input"
+                    title="Imię i nazwisko"
+                    required />
+                </div>
+                <div class="input-container">
+                  <label for="phone" class="inputs-labels">Phone </label>
+                  <input
+                    id="phone"
+                    name="phone"
+                    type="tel"
+                    placeholder="+48 XXX XXX XXX"
+                    title="Phone"
+                    class="text-input"
+                    required />
+                </div>
+                <div class="input-container">
+                  <label for="email" class="inputs-labels">Email</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="name@gmail.com"
+                    title="Email"
+                    class="text-input"
+                    required />
+                </div>
+                <div class="checkbox-wrapper">
+                  <input
+                    id="checkbox"
+                    name="checkbox"
+                    type="checkbox"
+                    class="checkbox" />
+                  <label for="checkbox" class="checkbox-label"
+                    >Wypełnienie formularza zgłoszeniowego jest równoznaczne z
+                    wyrażeniem zgody na przetwarzanie danych osobowych,
+                    otrzymywanie newslettera, oraz kontakt telefoniczny
+                  </label>
+                </div>
+                <button class="submit-button" type="submit">Wyślij</button>
+              </fieldset>
+            </form>
+          </aside>
+        </section>
+      </article>
+      <section class="pricelist" id="pricelist">
+        <h2 class="pricelist-title">ПРАЙС-ЛИСТ</h2>
+        <div class="table-section">
+          <table>
+            <tr class="table-header">
+              <th class="start">Kod</th>
+              <th class="center">Konsultacje</th>
+              <th class="end">Cena brutto</th>
+            </tr>
+            <tr class="table-raw">
+              <td class="start">89.000</td>
+              <td class="center">Konsultacja anestezjologiczna</td>
+              <td class="end">280 zł </td>
+            </tr>
+            <tr class="table-raw">
+              <td class="start">89.000</td>
+              <td class="center">Telekonsultacja anestezjologiczna</td>
+              <td class="end">190 zł </td>
+            </tr>
+            <tr class="table-raw">
+              <td class="start">89.000</td>
+              <td class="center">Konsultacja anestezjologiczna</td>
+              <td class="end">280 zł </td>
+            </tr>
+            <tr class="table-raw">
+              <td class="start">89.000</td>
+              <td class="center">Konsultacja anestezjologiczna</td>
+              <td class="end">280 zł </td>
+            </tr>
+            <tr class="table-header">
+              <th class="start">Kod</th>
+              <th class="center">Badania</th>
+              <th class="end">Cena brutto</th>
+            </tr>
+            <tr class="table-raw">
+              <td class="start">89.000</td>
+              <td class="center">Konsultacja anestezjologiczna</td>
+              <td class="end">280 zł </td>
+            </tr>
+            <tr class="table-raw">
+              <td class="start">89.000</td>
+              <td class="center">Telekonsultacja anestezjologiczna</td>
+              <td class="end">190 zł </td>
+            </tr>
+            <tr class="table-raw">
+              <td class="start">89.000</td>
+              <td class="center">Konsultacja anestezjologiczna</td>
+              <td class="end">280 zł </td>
+            </tr>
+            <tr class="table-raw">
+              <td class="start">89.000</td>
+              <td class="center">Konsultacja anestezjologiczna</td>
+              <td class="end">280 zł </td>
+            </tr>
+            <tr class="table-header">
+              <th class="start">Kod</th>
+              <th class="center">Badania</th>
+              <th class="end">Cena brutto</th>
+            </tr>
+            <tr class="table-raw">
+              <td class="start">89.000</td>
+              <td class="center">Konsultacja anestezjologiczna</td>
+              <td class="end">280 zł </td>
+            </tr>
+            <tr class="table-raw">
+              <td class="start">89.000</td>
+              <td class="center">Telekonsultacja anestezjologiczna</td>
+              <td class="end">190 zł </td>
+            </tr>
+            <tr class="table-raw">
+              <td class="start">89.000</td>
+              <td class="center">Konsultacja anestezjologiczna</td>
+              <td class="end">280 zł </td>
+            </tr>
+            <tr class="table-raw">
+              <td class="start">89.000</td>
+              <td class="center">Konsultacja anestezjologiczna</td>
+              <td class="end">280 zł </td>
+            </tr>
+            <tr class="table-header">
+              <th class="start">Kod</th>
+              <th class="center">Badania</th>
+              <th class="end">Cena brutto</th>
+            </tr>
+            <tr class="table-raw">
+              <td class="start">89.000</td>
+              <td class="center">Konsultacja anestezjologiczna</td>
+              <td class="end">280 zł </td>
+            </tr>
+            <tr class="table-raw">
+              <td class="start">89.000</td>
+              <td class="center">Telekonsultacja anestezjologiczna</td>
+              <td class="end">190 zł </td>
+            </tr>
+            <tr class="table-raw">
+              <td class="start">89.000</td>
+              <td class="center">Konsultacja anestezjologiczna</td>
+              <td class="end">280 zł </td>
+            </tr>
+            <tr class="table-raw">
+              <td class="start">89.000</td>
+              <td class="center">Konsultacja anestezjologiczna</td>
+              <td class="end">280 zł </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section class="pereglyad">
+        <img
+          src="./public/pereglad-img.svg"
+          alt="Twój kompleksowy przegląd stanu zdrowia"
+          width="735"
+          height="235.63"
+          class="pereglyad-img" />
+      </section>
+      <section class="contacts" id="contacts">
+        <section class="info-section">
+          <section class="tel">
+            <p class="phone-title">W razie jakichkolwiek pytań, zadzwoń</p>
+            <a href="tel:+48000000000" class="phone-number">+48 00 000 00 00</a>
+            <p class="phone-time">Pon. - Pt.: 07:00-20:00</p>
+          </section>
+          <section class="address">
+            <img src="./public/warszawa-map.svg" alt="warszawa-map" />
+            <p class="address-title">Nasz adres</p>
+            <p class="address-text">
+              Lorem, <br />
+              01-005 Warszawa
+              <img
+                src="./public/address-icon.svg"
+                alt=""
+                width="26.26"
+                height="24"
+                class="plane-icon" />
+            </p>
+          </section>
+          <section class="social-networks" id="contacts">
+            <p class="social-title">Nasz adres e-mail</p>
+            <a href="mailto:info@lorem.center" class="email"
+              >info@lorem.center</a
+            >
+            <ul class="networks">
+              <li>
+                <a href="https://instagram.com/"
+                  ><img src="./public/instagram.svg" alt="istagram-link"
+                /></a>
+              </li>
+              <li>
+                <a href="https://facebook.com/"
+                  ><img src="./public/facebook.svg" alt="facebook-link"
+                /></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/"
+                  ><img src="./public/linkedin.svg" alt="linkedin-link"
+                /></a>
+              </li>
+              <li>
+                <a href="https://youtube.com/"
+                  ><img src="./public/youtube.svg" alt="youtube-link"
+                /></a>
+              </li>
+            </ul>
+          </section>
+        </section>
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="footer-text">
+        <p>
+          Jakiekolwiek wykorzystanie lub kopiowanie wybranych materiałów ze
+          strony jest dozwolone tylko za zgodą właściciela praw autorskich i
+          tylko z powołaniem się na źródło.
+        </p>
+        <img src="./public/visa.svg" alt="" />
+      </section>
+      <section class="navigation-links">
+        <section class="navigation">
+          <nav>
+            <ul>
+              <li><a href="/about">O nas</a></li>
+              <li><a href="#pricelist">Uslugi</a></li>
+              <li><a href="/blog">Blog</a></li>
+              <li><a href="/praca">Praca</a></li>
+              <li><a href="/cennik">Cennik</a></li>
+            </ul>
+          </nav>
+        </section>
+        <section class="links">
+          <nav>
+            <ul>
+              <li><a href="/localization">Lokalizacja</a></li>
+              <li><a href="#contacts">Skontaktuj się z nami</a></li>
+            </ul>
+          </nav>
+        </section>
+        <section class="social-networks-footer">
+          <nav>
+            <ul>
+              <li>
+                <a href="https://instagram.com/"
+                  ><img
+                    src="./public/footer-instagram-link.svg"
+                    alt="instagram link"
+                /></a>
+              </li>
+              <li>
+                <a href="https://facebook.com/"
+                  ><img
+                    src="./public/facebook-footer-link.svg"
+                    alt="facebook link"
+                /></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/"
+                  ><img
+                    src="./public/linkedin-footer-link.svg"
+                    alt="linkedin link"
+                /></a>
+              </li>
+              <li>
+                <a href="https://youtube.com/"
+                  ><img
+                    src="./public/youtube-footer-link.svg"
+                    alt="youtube link"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </section>
+      <section class="information-links">
+        <nav>
+          <ul>
+            <li><a href="/politics">Polityka prywatnosci</a></li>
+            <li><a href="/reglament">Regulamin</a></li>
+            <li><a href="/pageX">Przgotowanie do badan</a></li>
+            <li><a href="/pacient-info">Informacja o prawach pacjenta</a></li>
+            <li><a href="/cookie">Polityka cookie</a></li>
+          </ul>
+        </nav>
+      </section>
+    </footer>
+  </body>
+</html>
