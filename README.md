@@ -11,7 +11,7 @@ HTML
 CSS
 
 How to Use
-You can visit this site on vladantonov95.github.io/test-clinic/
+You can visit this site on https://vladantonov95.github.io/test-clinic/
 
 Getting Started
 Clone the repository: git clone https://github.com/your-username/clinic-website.git
